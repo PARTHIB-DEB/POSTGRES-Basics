@@ -93,4 +93,4 @@ Arranging a specific column by ascending/descending order
   SELECT * FROM table_name ORDER BY col_name DESC ;
 ```
 
-***TO BE CONTINUED***
+***TO BE CONTINUED . . . .***
