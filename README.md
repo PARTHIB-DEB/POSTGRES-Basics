@@ -47,7 +47,7 @@ To check details inside a specific table
 ```
 ***Way-2 :***
 ```bash
-  SELECT * FROM table_name
+  SELECT * FROM table_name ;
 ```
 
 To create more mature Table , we have to add **constraints** inside the command of each column,
@@ -81,14 +81,14 @@ How to delete a table
 To fetch a specific column/s details from a table(different values of a specific column/s)
 
 ```bash
-  SELECT column_1,column_2 FROM table_name
+  SELECT column_1,column_2 FROM table_name ;
 ```
 
 Arranging a specific column by ascending/descending order
 
 ```bash
-  SELECT * FROM table_name ORDER BY col_name ASC
+  SELECT * FROM table_name ORDER BY col_name ASC ;
 ```
 ```bash
-  SELECT * FROM table_name ORDER BY col_name DESC
+  SELECT * FROM table_name ORDER BY col_name DESC ;
 ```
