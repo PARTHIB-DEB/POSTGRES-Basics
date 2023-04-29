@@ -76,7 +76,7 @@ https://www.postgresql.org/docs/current/sql-insert.html
 How to delete a table
 
 ```bash
-  DROP TABLE table_name;
+  DROP TABLE table_name ;
 ```
 To fetch a specific column/s details from a table(different values of a specific column/s)
 
