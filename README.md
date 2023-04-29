@@ -6,6 +6,12 @@ Its a simple cheatsheet of POSTGRE-SQL database commands.
 
 ## Commands
 
+To see all SQL databases using POSTGRES technology
+
+```bash
+  \l
+```
+
 To Create a new database (default database name is 'postgres')
 
 ```bash
