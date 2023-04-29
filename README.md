@@ -55,7 +55,7 @@ such constraints like **primary key**,**not null** etc.
 
 https://www.postgresql.org/docs/current/ddl-constraints.html
 ```bash
-(column_name DATATYPE CONSTRAINTS,
+  column_name DATATYPE CONSTRAINTS,
 ```
 To insert a new record / row / object in table
 
