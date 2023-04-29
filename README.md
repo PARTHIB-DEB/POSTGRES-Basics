@@ -1,7 +1,7 @@
 
 # Basic PostGresql Commands :elephant: :elephant: :elephant:
 
-Its a simple cheatsheet of POSTGRESQL database commands.
+Its a simple cheatsheet of POSTGRE-SQL database commands.
 
 
 ## Commands
@@ -92,3 +92,5 @@ Arranging a specific column by ascending/descending order
 ```bash
   SELECT * FROM table_name ORDER BY col_name DESC ;
 ```
+
+***TO BE CONTINUED***
