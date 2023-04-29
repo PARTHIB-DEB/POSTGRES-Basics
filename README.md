@@ -4,7 +4,7 @@
 I am going to Create a simple cheatsheet of POSTGRESQL commands.
 
 
-## Deployment
+## Commands
 
 To Create a new database (default database name is 'postgres')
 
