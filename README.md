@@ -9,12 +9,12 @@ Its a simple cheatsheet of POSTGRESQL database commands.
 To Create a new database (default database name is 'postgres')
 
 ```bash
-  CREATE DATABASE db_name;
+  CREATE DATABASE db_name ;
 ```
 To Delete a new database 
 
 ```bash
-  DROP DATABASE db_name;
+  DROP DATABASE db_name ;
 ```
 How to Create a table, follow the commands part by part
 
