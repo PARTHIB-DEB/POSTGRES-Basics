@@ -29,7 +29,7 @@ https://www.postgresql.org/docs/current/datatype.html
 ```bash
   column_name DATATYPE(numeric limit),
 ```
-STEP-3:[Finishing the table]
+STEP-3: [Finishing the table]
 ```bash
   end_colname DATATYPE(num_limit));
 ```
