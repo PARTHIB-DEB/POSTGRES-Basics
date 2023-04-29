@@ -1,7 +1,7 @@
 
 # Basic PostGresql Commands :elephant: :elephant: :elephant:
 
-I am going to Create a simple cheatsheet of POSTGRESQL commands.
+Its a simple cheatsheet of POSTGRESQL database commands.
 
 
 ## Commands
