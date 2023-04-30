@@ -174,10 +174,10 @@ a little more mature table command using ORDER BY and these functions(fn -> math
 ```bash
   SELECT col_x,col_y,fn(col_z).... FROM table_name ORDER BY col_x,col_y ;
 ```
-Performing some arithmatic operations (to show such outcome ammount of rows in a subtable)
+Performing some arithmatic operations
 
 ```bash
-  SELECT x ARITH(Replace this with operator) y ;
+  SELECT X ARITH(Replace this with operator) Y ;
 ```
 To manipulate column values
 
