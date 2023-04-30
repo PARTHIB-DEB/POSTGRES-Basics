@@ -22,6 +22,12 @@ To Delete a new database
 ```bash
   DROP DATABASE db_name ;
 ```
+How to move from one database to another
+
+```bash
+  \c db_name ;
+```
+
 How to Create a table, follow the commands part by part
 
 STEP-1:
