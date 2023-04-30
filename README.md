@@ -214,6 +214,14 @@ To search some datas from a table based on a value
 ```bash
   DELETE FROM table_name WHERE col_name=value(number or 'string') ;
 ```
+**For Addition of a COLUMN or CONSTRAINTS** , we use **ALTER TABLE** command
+https://www.postgresql.org/docs/current/sql-altertable.html
 
+```bash
+  ALTER TABLE table_name ADD COLUMN col_name CONSTRAINTS
+```
+```bash
+  ALTER TABLE table_name ADD CONSTRAINT(col_name)
+```
 
 ***TO BE CONTINUED . . . .*** :elephant: :elephant: :elephant:
