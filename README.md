@@ -218,7 +218,7 @@ To search some datas from a table based on a value
 https://www.postgresql.org/docs/current/sql-altertable.html
 
 ```bash
-  ALTER TABLE table_name ADD COLUMN col_name CONSTRAINTS
+  ALTER TABLE table_name ADD COLUMN col_name constraints
 ```
 ```bash
   ALTER TABLE table_name ADD CONSTRAINT(col_name)
