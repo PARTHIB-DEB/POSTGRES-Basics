@@ -90,13 +90,83 @@ To fetch a specific column/s details from a table(different values of a specific
   SELECT column_1,column_2 FROM table_name ;
 ```
 
-Arranging a specific column by ascending/descending order
+Arranging a specific column/s (by ascending/descending order)
 
+```bash
+  SELECT * FROM table_name ORDER BY col_1,col_2;
+```
 ```bash
   SELECT * FROM table_name ORDER BY col_name ASC ;
 ```
 ```bash
   SELECT * FROM table_name ORDER BY col_name DESC ;
 ```
+
+To show distinct values of a specific column
+
+```bash
+  SELECT DISTINCT col_name FROM table_name ORDER BY col_name ;
+```
+
+Generate a SUB-TABLE from a main table on the basis of a specific column/s value
+
+```bash
+  SELECT * FROM table_name WHERE col_name1="value1" AND col_name2="value2" ;
+```
+```bash
+  SELECT * FROM table_name WHERE col_name IN ('value1','value2',.......) ;
+```
+
+In a more mature way...
+
+```bash
+  SELECT * FROM table_name WHERE col_name1="value1" AND (col_name2="value2" OR col_name3="value3) ;
+```
+
+Limiting datas of a table
+
+***From 1-limit***
+```bash
+  SELECT * FROM table_name LIMIT number ;
+```
+
+**OR**
+
+```bash
+  SELECT * FROM table_name FETCH FIRST num ROW ONLY ;
+```
+***From offset-limit***
+
+```bash
+  SELECT * FROM table_name OFFSET number1 LIMIT number2 ;
+```
+
+**OR**
+
+```bash
+  SELECT * FROM table_name OFFSET num1 FETCH FIRST num2 ROW ONLY ;
+```
+***REMEMBER :*** We can break a long commnads in some pieces but we must not put any *;* after each line until the last line comes!!
+
+Using the LIKE method to fetch a specific subtable
+
+```bash
+  SELECT * FROM table_name WHERE col_name1 LIKE '%matchingphrases';
+```
+Fetching a subtable by grouping a specific column datas
+
+```bash
+  SELECT col_name FROM table_name GROUP BY col_name ;
+```
+Fetching max/min value of a specific column from a table
+
+```bash
+  SELECT MAX(col_name) FROM table_name ;
+```
+
+```bash
+  SELECT MIN(col_name) FROM table_name ;
+```
+
 
 ***TO BE CONTINUED . . . .*** :elephant: :elephant: :elephant:
