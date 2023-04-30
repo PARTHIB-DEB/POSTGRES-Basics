@@ -177,7 +177,7 @@ a little more mature table command using ORDER BY and these functions(fn -> math
 Performing some arithmatic operations (to show such outcome ammount of rows in a subtable)
 
 ```bash
-  SELECT x **ARITH(Replace this with operator)** y ;
+  SELECT x ARITH(Replace this with operator) y ;
 ```
 To manipulate column values
 
