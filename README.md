@@ -25,7 +25,7 @@ To Delete a new database
 How to move from one database to another
 
 ```bash
-  \c db_name ;
+  \c db_name 
 ```
 How to clear screen in PSQL SHELL
 
