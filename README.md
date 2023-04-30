@@ -101,7 +101,7 @@ To fetch a specific column/s details from a table(different values of a specific
   SELECT column_1,column_2 FROM table_name ;
 ```
 
-Arranging a specific column/s (by ascending/descending order)
+Arranging the whole table on  specific column/s (by ascending/descending order)
 
 ```bash
   SELECT * FROM table_name ORDER BY col_1,col_2;
