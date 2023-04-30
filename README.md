@@ -158,7 +158,7 @@ Fetching a subtable by grouping a specific column datas
 ```bash
   SELECT col_name FROM table_name GROUP BY col_name ;
 ```
-Fetching max/min value of a specific column from a table
+Showing a single outcome of values in a specific column from a table (same for AVG, ROUND , SUM)
 
 ```bash
   SELECT MAX(col_name) FROM table_name ;
@@ -166,6 +166,53 @@ Fetching max/min value of a specific column from a table
 
 ```bash
   SELECT MIN(col_name) FROM table_name ;
+```
+***Remember :*** We can nest this functions also
+
+a little more mature table command using ORDER BY and these functions(fn -> math functions)
+
+```bash
+  SELECT col_x,col_y,fn(col_z).... FROM table_name ORDER BY col_x,col_y ;
+```
+Performing some arithmatic operations (to show such outcome ammount of rows in a subtable)
+
+```bash
+  SELECT x **ARITH(Replace this with operator)** y ;
+```
+To manipulate column values
+
+```bash
+  SELECT col_1,col_2....,fn(col_n) FROM table_name ;
+```
+
+To show the table by replacing some ***blank*** column value
+
+```bash
+  SELECT COALESCE(col_name,'default_statement/value') FROM table_name ;
+```
+
+**Primary Key:** Its a way to distinguish two records of having some or totally same datas. However we can create an object of same primary key (may or maynot same data of both records) ,let
+
+```bash
+  CREATE TABLE(
+  id INT NOT NULL **PRIMARY KEY**,);
+```
+Now to make another record of same *Pkey*
+
+```bash
+  ALTER TABLE table_name DROP CONSTRAINT tabname_pkey ;
+```
+
+To search some datas from a table based on a value
+
+```bash
+  SELECT * FROM table_name WHERE col_name=value(either 'string' or numeric according to datatype)
+```
+**For DELETION**, either we can **delete database (Not preferred :X:)** , **Delete (drop) a table**, OR,
+**Delete a specific record by identifying its id (because in general , id/Pkey is the unique)
+
+```bash
+  DELETE FROM table_name WHERE col_name=value(number or 'string') ;
 ```
 
 
