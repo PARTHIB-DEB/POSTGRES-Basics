@@ -27,6 +27,11 @@ How to move from one database to another
 ```bash
   \c db_name ;
 ```
+How to clear screen in PSQL SHELL
+
+```bash
+  \! cls
+```
 
 How to Create a table, follow the commands part by part
 
