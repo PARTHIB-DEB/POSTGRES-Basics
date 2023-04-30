@@ -195,7 +195,7 @@ To show the table by replacing some ***blank*** column value
 
 ```bash
   CREATE TABLE(
-  id INT NOT NULL **PRIMARY KEY**,);
+  id INT NOT NULL PRIMARY KEY,);
 ```
 Now to make another record of same *Pkey*
 
