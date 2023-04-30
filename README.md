@@ -125,7 +125,7 @@ In a more mature way...
 
 Limiting datas of a table
 
-***From 1-limit***
+***From 1 to limit***
 ```bash
   SELECT * FROM table_name LIMIT number ;
 ```
@@ -135,7 +135,7 @@ Limiting datas of a table
 ```bash
   SELECT * FROM table_name FETCH FIRST num ROW ONLY ;
 ```
-***From offset-limit***
+***From offset to limit***
 
 ```bash
   SELECT * FROM table_name OFFSET number1 LIMIT number2 ;
