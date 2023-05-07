@@ -262,6 +262,10 @@ To apply a foreignkey in practice , command is:
 ```bash
   UNIQUE(parent_id)
 ```
+To create a relation , the command is -
+```bash
+  UPDATE tab_01_name SET parent_id = numeric WHERE child_id = numeric;
+```
 
 
 
