@@ -241,23 +241,21 @@ To apply a foreignkey in practice , command is:
 :exclamation::exclamation:*Remember ,  it is necessary to create all the secondary tables at first before the parent table because if the parent table do not find any such secondary table name , it will throw and error*
 
 ```bash
-  CREATE TABLE tab_02_name{
+  CREATE TABLE tab_02_name(
   .
   .
   .
   .
   .
-  }
+  )
 
-
-
-  CREATE TABLE tab_01_name{
+  CREATE TABLE tab_01_name(
   .
   .
   .
   .
   parent_id XXXYYYYYYYZZZ REFERENCES tab_02_name(target_id)
-  }
+  )
 ```
 *For O-O relations* - one elements of tab_02_name(target_id) will be assigned to only one element of tab_01_name(parent_id) , so
 
