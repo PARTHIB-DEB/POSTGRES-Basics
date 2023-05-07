@@ -234,5 +234,25 @@ https://www.postgresql.org/docs/current/sql-altertable.html
 ```bash
   ALTER TABLE table_name ADD CONSTRAINT(col_name)
 ```
+**Foreign-key :**A foreignkey field of a particular table is the *Primary-Key* of another table ; That's how , we can connect more tables by building O-O,O-M,M-M relations
+and justifies the name of *RELATIONAL DATABASE*
+To apply a foreignkey in practice , command is:
+
+```bash
+  CREATE TABLE tab_01_name{
+  .
+  .
+  .
+  .
+  parent_id *some_contrains(if not then remove this phrase)* REFERENCES tab_02_name(target_id)
+  }
+```
+*For O-O relations* - one elements of tab_02_name(target_id) will be assigned to only one element of tab_01_name(parent_id) , so
+
+```bash
+  UNIQUE(parent_id)
+```
+
+
 
 ***TO BE CONTINUED . . . .*** :elephant: :elephant: :elephant:
