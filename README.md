@@ -244,7 +244,7 @@ To apply a foreignkey in practice , command is:
   .
   .
   .
-  parent_id *some_contrains(if not then remove this phrase)* REFERENCES tab_02_name(target_id)
+  parent_id XXXYYYYYYYZZZ REFERENCES tab_02_name(target_id)
   }
 ```
 *For O-O relations* - one elements of tab_02_name(target_id) will be assigned to only one element of tab_01_name(parent_id) , so
