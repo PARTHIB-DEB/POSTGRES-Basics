@@ -234,11 +234,11 @@ https://www.postgresql.org/docs/current/sql-altertable.html
 ```bash
   ALTER TABLE table_name ADD CONSTRAINT(col_name)
 ```
-**Foreign-key :**A foreignkey field of a particular table is the *Primary-Key* of another table ; That's how , we can connect more tables by building O-O,O-M,M-M relations
+**Foreign-key :** A foreignkey field of a particular table is the *Primary-Key* of another table ; That's how , we can connect more tables by building O-O,O-M,M-M relations
 and justifies the name of *RELATIONAL DATABASE*
 To apply a foreignkey in practice , command is:
 
-:exclamation::exclamation:*Remember ,  it is necessary to create all the secondary tables at first before the parent table because if the parent table do not find any such secondary table name , it will throw and error*
+:exclamation::exclamation: *Remember ,  it is necessary to create all the secondary tables at first before the parent table because if the parent table do not find any such secondary table name , it will throw and error*
 
 ```bash
   CREATE TABLE tab_02_name(
