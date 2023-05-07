@@ -238,7 +238,19 @@ https://www.postgresql.org/docs/current/sql-altertable.html
 and justifies the name of *RELATIONAL DATABASE*
 To apply a foreignkey in practice , command is:
 
+:exclamation::exclamation:*Remember ,  it is necessary to create all the secondary tables at first before the parent table because if the parent table do not find any such secondary table name , it will throw and error*
+
 ```bash
+  CREATE TABLE tab_02_name{
+  .
+  .
+  .
+  .
+  .
+  }
+
+
+
   CREATE TABLE tab_01_name{
   .
   .
