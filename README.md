@@ -266,6 +266,11 @@ To create a relation , the command is -
 ```bash
   UPDATE tab_01_name SET parent_id = numeric WHERE child_id = numeric;
 ```
+To see the INNER-JOIN between more than one databases (basically shows , how much of each dbs are connected by foreign & primary key)
+
+```bash
+  JOIN tab_02 ON tab_01.parent-id=tab_2.target.id
+```
 
 
 
