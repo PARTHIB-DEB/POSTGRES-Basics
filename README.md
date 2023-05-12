@@ -271,7 +271,10 @@ To see the INNER-JOIN between more than one databases (basically shows , how muc
 ```bash
   JOIN tab_02 ON tab_01.parent-id=tab_2.target.id
 ```
-
+**How to create a new user**
+```bash
+  CREATE USER username WITH PASSWORD 'password'
+```
 
 
 ***TO BE CONTINUED . . . .*** :elephant: :elephant: :elephant:
