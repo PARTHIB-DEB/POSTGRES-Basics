@@ -11,12 +11,6 @@ To see all SQL databases using POSTGRES technology
 ```bash
   \l
 ```
-To create a new DATABASE
-
-```bash
-  CREATE DATABASE databasename;
-```
-
 
 To Create a new database (default database name is 'postgres')
 
