@@ -275,3 +275,16 @@ To see the INNER-JOIN between more than one databases (basically shows , how muc
 
 
 ***TO BE CONTINUED . . . .*** :elephant: :elephant: :elephant:
+#How to connect Django with Postgresql
+```bash
+  DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase(change it if required)',
+        'USER': 'mydatabaseuser(change it if required)',
+        'PASSWORD': 'mypassword(change it if required)',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+```
